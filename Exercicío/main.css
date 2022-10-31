@@ -8,13 +8,14 @@ header,
 section h2,
 section h3,
 section h4,
+footer,
 form button {
     font-family: 'Nabla', cursive;
-    font-weight: normal;
+    font-weight: 32px;
     }
 
 body, input, textarea {
-    font-family: 'Bitter', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -36,7 +37,7 @@ header nav li a {
 
 .container {
     max-width: 1280px;
-    width: 75%;
+    width: 85%;
     margin: 0 auto;
     padding: 2px;
 }
@@ -52,12 +53,13 @@ section .container {
         height: 48px;
 }
 
-.brands-list li {
+.brands-list li, {
     display: inline;
     margin-right: 10px;
 }
 
-section .container {
+section .container,
+.characters {
     align-items: flex-start;
 }
 
@@ -85,8 +87,7 @@ section img {
     margin-right: 32px;
 }
 
-.store-front,
-.container-2 {
+.store-front {
     margin-right: 8px;
 }
 
@@ -95,7 +96,7 @@ section img {
 }
 
 .social-links li {
-    display: inline;
+    display: none;
     margin-right: 8px;
 }
 
