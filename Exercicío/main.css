@@ -96,8 +96,8 @@ section img {
 }
 
 .social-links li {
-    display: none;
-    margin-right: 8px;
+    display: inline;
+    margin-right: -32px;
 }
 
 .social-links li a {
@@ -150,4 +150,8 @@ footer {
     background-color:rgb(0, 0, 0);
     color: #ecf0f1;
     padding: 16px;
+}
+
+.container-2 {
+    padding: 90px;
 }
