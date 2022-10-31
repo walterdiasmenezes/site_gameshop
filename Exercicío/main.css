@@ -81,6 +81,10 @@ section p {
     margin-bottom: 8px;
 }
 
+section img {
+    margin-right: 32px;
+}
+
 .store-front,
 .container-2 {
     margin-right: 8px;
@@ -134,7 +138,7 @@ form button {
 }
 
 form button:hover {
-    background-color: rgb(76, 76, 156);
+    background-color: rgb(59, 59, 61);
 }
 
 input:focus, textarea:focus {
